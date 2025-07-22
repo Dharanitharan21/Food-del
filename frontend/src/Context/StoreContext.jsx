@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartitems, setcartitems] = useState({});
 
-  const url = process.env.REACT_APP_BACKEND_URL;
+  const url = import.meta.env.VITE_BACKEND_URL
   const [token, setToken] = useState("");
   const [food_list, setfoodlist] = useState([]);
 

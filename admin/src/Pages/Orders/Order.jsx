@@ -7,7 +7,8 @@ import { assets } from '../../assets/assets';
 
 const Order = ({url}) => {
   const [orders,setorders]=useState([])
-
+  console.log(url);
+  
   const fetchAllOrders =async () =>{
     const res =await axios.get(url+"/api/order/list")
     if(res.data.success){

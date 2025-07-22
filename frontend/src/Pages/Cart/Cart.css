@@ -84,6 +84,28 @@
     color: white;
     border-radius: 4px;
 }
+.empty-cart {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  margin: 40px 0;
+  font-weight: 500;
+  opacity: 0.9;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Optional: Simple fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 @media (max-width:750px){
     .cart-bottom{
         flex-direction: column-reverse;
