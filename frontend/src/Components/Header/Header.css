@@ -49,6 +49,8 @@
         display: none;
     }
     .header-contents button{
-        padding: 2vw 4vw;
+        padding: 1vw 4vw;
+    font-size: max(1vw,10px);
+        
     }
 }
