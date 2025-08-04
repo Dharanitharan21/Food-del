@@ -57,6 +57,8 @@ const loadCardData =async(token) =>{
     }
     loadData()
   }, []);
+
+  
   const contextValue = {
     food_list,
     cartitems,
